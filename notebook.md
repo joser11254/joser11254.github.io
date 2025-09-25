@@ -12,6 +12,7 @@
   - [Practice](#practice)
    - [Code Definitions](code-definitions)
    - [Pseudocode and Java Table](pseudocode-java-reference)
+   - [Variables and dataTypes](#variables-and-datatypes)
   -[Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
  
      ## Binary Notes
@@ -115,6 +116,52 @@ This ensures your notes are easy for you (and others) to read later.
 ## Day 1
 ### Notes
 ### Practice
+
+## Variables and DataTypes
+
+**Structure of a variable**
+```java
+// Data Type variableName = value;
+// = is the assignment operator. spoken as "gets"
+String name = "Jose";
+int grade 10;
+double gpa = 3.5;
+char initial = `J`
+boolean inOn = false;
+```
+
+**Primitive dataType**
+Is a value that takes only 1 byte
+Examples: int, char, boolean, double
+
+**Pointer DataType**
+Object dataTypes, they're too big for 1 byte, so instead of storing the data, it stores a pointer, which points to the memoru location of the data
+Examples: String, ArrayList, and object created from a class
+
+**Semicolon ;**
+Is like a period. It's the end of your code statement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 🔡 Text Formatting
 When to use: Highlight important ideas or add emphasis.
@@ -283,4 +330,6 @@ Blockquotes = Notes/Tips
 Collapsible = Hide/Show detail
 
 Keep it simple, consistent, and clear.
+
+
 
