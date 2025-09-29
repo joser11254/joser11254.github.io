@@ -13,7 +13,9 @@
    - [Code Definitions](code-definitions)
    - [Pseudocode and Java Table](pseudocode-java-reference)
    - [Variables and dataTypes](#variables-and-datatypes)
+   - [Conditionals](#conditionals)
   -[Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+   
  
      ## Binary Notes
      ### Binary conversion Table
@@ -84,39 +86,6 @@ Convert 2989 from decimal (base 10) to hexadecimal (base 16)
 Notes for day 2
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-## Markdown Style Guide for Coding Notebooks
-
-Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
-This ensures your notes are easy for you (and others) to read later.
-
----
-
-## 🔹 Headings
-**When to use:** Organize your notebook into sections (like days, topics, or projects).  
-- `#` for the notebook title (use once at the top).  
-- `##` for each day or major topic.  
-- `###` for subsections (like "Notes", "Practice", "Reflections").  
-
-✅ Example:
-
-
-# My Coding Notebook
-## Day 1
-### Notes
-### Practice
-
 ## Variables and DataTypes
 
 **Structure of a variable**
@@ -142,25 +111,46 @@ Examples: String, ArrayList, and object created from a class
 Is like a period. It's the end of your code statement.
 
 
+## Conditionals
+if(condition)
+{
+	//do if condition is true
+} else if (nextCondition)
+{
+//do if condition is false but nextCondition is true
+} else
+{
+	//do if all prior conditions are false
+}
+
+&& and operator
+|| or operator
+!= not equal operator
+! not operator
 
 
 
 
+## Markdown Style Guide for Coding Notebooks
+
+Follow this guide to keep your coding notebook **clear, consistent, and professional**.  
+This ensures your notes are easy for you (and others) to read later.
+
+---
+
+## 🔹 Headings
+**When to use:** Organize your notebook into sections (like days, topics, or projects).  
+- `#` for the notebook title (use once at the top).  
+- `##` for each day or major topic.  
+- `###` for subsections (like "Notes", "Practice", "Reflections").  
+
+✅ Example:
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+# My Coding Notebook
+## Day 1
+### Notes
+### Practice
 
 
 🔡 Text Formatting
